@@ -125,7 +125,12 @@ const NavBar: React.FC = () => {
         >
           <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-neutral-800 rounded-lg bg-neutral-100 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-neutral-800 md:dark:bg-neutral-800 dark:border-neutral-100">
             {["/", "/aboutMe", "/resume", "/achievement"].map((path, index) => {
-              const labels = ["Home", "About Me", "Resume", "Achievement"];
+              const labels = [
+                "🏠Home",
+                "ℹ About Me",
+                "📑Resume",
+                "✅Achievement",
+              ];
               return (
                 <li key={index} className="group">
                   <Link
