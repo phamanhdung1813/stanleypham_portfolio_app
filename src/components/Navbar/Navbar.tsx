@@ -92,25 +92,25 @@ const NavBar: React.FC = () => {
         <button
           onClick={toggleMenu}
           type="button"
-          className="flex items-center justify-center p-1 w-10 h-10 md:hidden text-sm dark:text-white text-neutral-800 border-neutral-800 dark:border-neutral-300 rounded-lg border"
+          className="flex items-center justify-center p-2 w-12 h-12 md:hidden text-sm dark:text-neutral-100 text-neutral-800 border-neutral-800 dark:border-neutral-100 rounded-lg border"
           aria-controls="navbar-language"
           aria-expanded={isOpen}
           aria-label="Open main menu"
         >
-          <div className="relative w-6 h-3">
+          <div className="relative w-8 h-4">
             <span
               className={`block absolute h-0.5 w-full bg-current transition-transform duration-500 ease-in-out ${
-                isOpen ? "rotate-45 top-1.5" : "translate-y-0"
+                isOpen ? "rotate-45 top-[0.4rem]" : "translate-y-0"
               }`}
             ></span>
             <span
               className={`block absolute h-0.5 w-full bg-current transition-transform duration-500 ease-in-out ${
-                isOpen ? "opacity-0" : "translate-y-1.5"
+                isOpen ? "opacity-0" : "translate-y-[0.4rem]"
               }`}
             ></span>
             <span
               className={`block absolute h-0.5 w-full bg-current transition-transform duration-500 ease-in-out ${
-                isOpen ? "-rotate-45 top-1.5" : "translate-y-3"
+                isOpen ? "-rotate-45 top-[0.4rem]" : "translate-y-[0.8rem]"
               }`}
             ></span>
           </div>
@@ -139,7 +139,7 @@ const NavBar: React.FC = () => {
                     className={`block py-2 px-3 rounded md:p-0 relative transition-colors duration-300 ${
                       location.pathname === path
                         ? "dark:text-green-400 text-green-600"
-                        : "text-neutral-800 dark:text-white dark:hover:text-white hover:text-neutral-800"
+                        : "ml-1 text-neutral-800 dark:text-white dark:hover:text-white hover:text-neutral-800"
                     } transition-transform duration-200 transform hover:scale-110`}
                   >
                     {labels[index]}

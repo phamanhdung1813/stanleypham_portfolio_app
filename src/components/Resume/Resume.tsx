@@ -102,7 +102,7 @@ const Resume: React.FC = () => {
             dark:bg-green-600 dark:hover:bg-green-700 dark:text-white py-2 rounded-lg shadow-md transition-all duration-300 ease-in-out transform hover:scale-105"
             >
               <a href={myResume} download className="flex items-center">
-                <Download className="mr-2 h-5 w-5 text-white" />
+                <Download className="mr-2 h-5 w-5 dark:text-white text-neutral-800" />
                 <span className="text-lg font-semibold">Download (PDF)</span>
               </a>
             </button>

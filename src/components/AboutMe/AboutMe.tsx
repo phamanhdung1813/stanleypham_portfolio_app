@@ -21,12 +21,12 @@ const AboutMe: React.FC = () => {
           </p>
           <p className="text-white mt-3 ml-1 flex items-center">
             <img
-              className="ml-0 w-6 h-4 animate-wave inline-block"
+              className="ml-0 w-6 h-4 object-cover animate-wave inline-block"
               alt="Canada Flag"
               src="/images/AboutMe/Flag_of_Canada.svg" // Canada flag URL
             />
             <img
-              className="ml-2 w-6 h-4 animate-wave inline-block"
+              className="ml-2 w-6 h-4 object-cover animate-wave inline-block"
               alt="VietNam Flag"
               src="/images/AboutMe/Flag_of_Vietnam.svg" // Vietnam flag URL
             />

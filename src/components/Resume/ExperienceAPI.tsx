@@ -1,7 +1,7 @@
 export const ExperienceAPI = [
   {
     id: 0,
-    title: "Junior Software Developer",
+    title: "Software Developer",
     workingDate: "Dec 2023 – April 2024",
     companyName: "Levina Inc. Toronto, ON, Canada",
     detail: "",
@@ -62,7 +62,7 @@ export const ExperienceAPI = [
 
   {
     id: 1,
-    title: "Junior Software Developer",
+    title: "Software Developer",
     workingDate: "September 2022 - May 2023",
     companyName: "Canada Life Assurance, Toronto, ON, Canada",
     detail:
