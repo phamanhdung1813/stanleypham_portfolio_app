@@ -23,7 +23,7 @@ const CopyToClipboard: React.FC<CopyToClipboardProps> = ({ textToCopy }) => {
     <div className="flex items-center">
       <input
         type="text"
-        value="phamanhdung1318@gmail.com"
+        value="phamanhdung1813@gmail.com"
         readOnly
         className="bg-neutral-100 text-neutral-800 border border-neutral-800 
         dark:bg-neutral-800 dark:text-neutral-100 dark:border-neutral-900
@@ -33,8 +33,7 @@ const CopyToClipboard: React.FC<CopyToClipboardProps> = ({ textToCopy }) => {
         onClick={handleCopy}
         className="bg-neutral-100 text-neutral-800 hover:text-green-600 
         dark:bg-neutral-800 dark:text-neutral-100 dark:hover:text-green-400
-        
-        px-2 py-1 rounded flex items-center"
+        px-2 py-1 rounded flex items-center ml-1"
       >
         <FiCopy className="mr-2" />
         {copied ? "Copied!" : "Copy"}

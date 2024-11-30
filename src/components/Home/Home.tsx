@@ -47,7 +47,7 @@ const Home: React.FC = () => {
             </a>
 
             <span className="text-neutral-400 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-white transition-colors">
-              <CopyToClipboard textToCopy="phamanhdung@gmail.com" />
+              <CopyToClipboard textToCopy="phamanhdung1813@gmail.com" />
             </span>
           </div>
 
