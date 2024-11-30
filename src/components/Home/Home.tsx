@@ -40,7 +40,7 @@ const Home: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.linkedin.com/in/anh-dung-pham-38830b1a6/"
-              className="dark:text-neutral-400 dark:hover:text-white text-neutral-500 hover:text-neutral-800 transition-colors"
+              className="dark:text-neutral-400 dark:hover:text-blue-500 text-neutral-500 hover:text-blue-700 transition-colors"
             >
               <FaLinkedin className="w-8 h-8 sm:w-10 sm:h-10" />
               <span className="sr-only">LinkedIn</span>

@@ -18,7 +18,8 @@ const Footer: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               href="https://github.com/phamanhdung1813"
-              className="text-neutral-500 hover:text-neutral-900 dark:hover:text-white"
+              className="text-neutral-600 dark:text-neutral-400
+              hover:text-neutral-950 dark:hover:text-white"
             >
               <FaGithub className="w-7 h-7" />
               <span className="sr-only">GitHub</span>
@@ -27,7 +28,8 @@ const Footer: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.linkedin.com/in/anh-dung-pham-38830b1a6/"
-              className="text-neutral-500 hover:text-neutral-900 dark:hover:text-white ms-5"
+              className="text-neutral-600 dark:text-neutral-400 
+              hover:text-neutral-950 dark:hover:text-blue-400 ms-5"
             >
               <FaLinkedin className="w-7 h-7" />
               <span className="sr-only">Linkedin</span>

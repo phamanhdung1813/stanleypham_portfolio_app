@@ -45,7 +45,7 @@ const NavBar: React.FC = () => {
           className="flex items-center space-x-1 rtl:space-x-reverse"
         >
           <div className="flex items-center">
-            <IoCodeSlashSharp className="h-7 w-7 mr-2 text-green-600 dark:text-green-400" />
+            <IoCodeSlashSharp className="h-7 ml-2 w-7 mr-2 text-green-600 dark:text-green-400" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap text-green-600 dark:text-green-400">
               Stanley Pham
             </span>
@@ -59,7 +59,10 @@ const NavBar: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
             href="https://github.com/phamanhdung1813"
-            className="inline-flex items-center font-medium justify-center px-1 py-2 text-sm text-neutral-800 dark:text-white rounded-lg cursor-pointer"
+            className="inline-flex items-center font-medium justify-center px-1 py-2 text-sm 
+            text-neutral-600  dark:text-neutral-400
+            hover:text-neutral-950 dark:hover:text-white
+            rounded-lg cursor-pointer"
           >
             <FaGithub className="w-9 h-9 transition-transform duration-200 transform hover:scale-125" />
           </a>
@@ -69,7 +72,10 @@ const NavBar: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.linkedin.com/in/anh-dung-pham-38830b1a6/"
-            className="inline-flex items-center font-medium justify-center px-1 py-2 text-sm text-neutral-800 dark:text-white rounded-lg cursor-pointer"
+            className="inline-flex items-center font-medium justify-center px-1 py-2 text-sm 
+            text-neutral-600 dark:text-neutral-400
+            hover:text-blue-500 dark:hover:text-blue-400 
+            rounded-lg cursor-pointer"
           >
             <FaLinkedin className="w-9 h-9 transition-transform duration-200 transform hover:scale-125" />
           </a>
@@ -78,7 +84,10 @@ const NavBar: React.FC = () => {
           <button
             type="button"
             onClick={toggleDarkMode}
-            className="inline-flex items-center font-medium justify-center px-1 py-2 text-sm text-neutral-800 dark:text-white rounded-lg cursor-pointer"
+            className="inline-flex items-center font-medium justify-center px-1 py-2 text-sm 
+            text-neutral-600 dark:text-neutral-400
+            hover:text-yellow-500 dark:hover:text-yellow-500
+             rounded-lg cursor-pointer"
           >
             {darkMode ? (
               <MdLightMode className="w-9 h-9 transition-transform duration-200 transform hover:scale-125" />

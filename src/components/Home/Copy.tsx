@@ -26,8 +26,10 @@ const CopyToClipboard: React.FC<CopyToClipboardProps> = ({ textToCopy }) => {
         value="phamanhdung1813@gmail.com"
         readOnly
         className="bg-neutral-100 text-neutral-800 border border-neutral-800 
-        dark:bg-neutral-800 dark:text-neutral-100 dark:border-neutral-900
-        px-2 py-1 rounded w-64"
+        dark:bg-neutral-800 dark:text-neutral-100 dark:border-neutral-100 
+        px-2 py-1 rounded w-64 
+        focus:outline-none focus:ring-0 
+        "
       />
       <button
         onClick={handleCopy}
